@@ -9,10 +9,6 @@ public class UserFile implements Serializable {
     public byte[] uFile = null;
     String uFileName = null;
 
-    public UserFile() {
-
-    }
-
     public UserFile(String name, byte[] file) {
         this.uFileName = name;
         this.uFile = file;
